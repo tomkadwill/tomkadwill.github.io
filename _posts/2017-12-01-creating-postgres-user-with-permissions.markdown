@@ -53,5 +53,3 @@ SELECT * FROM pg_roles;
 ```
 
 {% include advertisements.html %}
-
-[kadwill-com]: https://kadwill.com
