@@ -111,6 +111,8 @@ SELECT COUNT(offers.id) AS offers_count, users.name AS user_name
 
 As you can see, the query does not return the correct results. The query is just counting all of the offers in the database.
 
+{% include advertisements.html %}
+
 ### Differences between MySQL and PostgreSQL
 Unfortunately the story doesn't end there. There are some differences between MySQL and PostgreSQL which further complicate matters. [As this Rails issue thread explains](https://github.com/rails/rails/issues/1515), in Postgres the columns that appear in the FROM clause have to be the same ones that appear in the GROUP BY clause. This is difficult to conceptualise so I'm going to demonstrate with some more SQL.
 
@@ -154,3 +156,5 @@ SELECT COUNT(offers.id) AS offers_count, users.name AS user_name, offers.name AS
 However, you'll notice that the results are not the same as results from MySQL. The only solution I've found is to re-write the query in a different way or to do some of the work in Ruby.
 
 I hope this post helps anyone who is having issues with `#group` and `#order` in Rails.
+
+{% include advertisements.html %}
