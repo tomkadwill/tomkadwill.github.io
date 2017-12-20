@@ -18,7 +18,7 @@ Unfortunately, this code returns the following error (I'm using Postgres):
 column "users.id" must appear in the GROUP BY clause or be used in an aggregate function
 ```
 
-I didn't understand why the GROUP BY clause was required but I added the `#group()` method to my query.
+I didn't understand why the GROUP BY clause was required but I added the `#group()` method to my query, anyway.
 
 ```ruby
 User.includes(:offers)
@@ -46,7 +46,7 @@ This worked. Sort of. The query was returning records but some of my tests were 
 
 ### Why is #group required?
 
-This is nothing to do with rails, it has to do with the way SQL works. #group is required here because the query needs to group offers by users, for the count to work. Here is some SQL to demonstrate:
+This is nothing to do with rails, it has to do with the way SQL works. `#group` is required here because the query needs to group offers by users, for the count to work. Here is some SQL to demonstrate:
 
 ```SQL
 CREATE TABLE users (
@@ -116,7 +116,7 @@ As you can see, the query does not return the correct results. The query is just
 ### Differences between MySQL and PostgreSQL
 Unfortunately the story doesn't end there. There are some differences between MySQL and PostgreSQL which further complicate matters. [As this Rails issue thread explains](https://github.com/rails/rails/issues/1515), in Postgres the columns that appear in the FROM clause have to be the same ones that appear in the GROUP BY clause. This is difficult to conceptualise so I'm going to demonstrate with some more SQL.
 
-I'll use the same setup as before, only this time let's imagine that I have a new requirement to also select the name of the offers. I'll also remove the ORDER BY to keep the example simple.
+I'll use the same setup as before, only this time let's imagine that I have a new requirement to also select the name of the offers. I'll remove the ORDER BY to keep the example simple.
 
 ```SQL
 SELECT COUNT(offers.id) AS offers_count, users.name AS user_name, offers.name AS offers_name
