@@ -51,5 +51,3 @@ If you are working through these steps yourself then you can run the following c
 ```
 SELECT * FROM pg_roles;
 ```
-
-{% include advertisements.html %}

@@ -8,8 +8,6 @@ Recently I've been using Amazon's ECS service which allows developers to run Doc
 
 After some searching I found a couple of commands to help me solve this problem.
 
-{% include advertisements.html %}
-
 ```
 $ docker ps -a
 ```

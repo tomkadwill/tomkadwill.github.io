@@ -10,6 +10,4 @@ In this blog I intend to write about all things tech. Where my last blog was pre
 
 I hope some people will find this content useful and I hope this blog has a longer life than the last!
 
-{% include advertisements.html %}
-
 [kadwill-com]: https://kadwill.com

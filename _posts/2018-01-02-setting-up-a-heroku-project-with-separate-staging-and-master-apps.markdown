@@ -59,5 +59,3 @@ $ heroku run rake db:migrate --app production-app
 ### Further Reading
 * [Heroku docs](https://devcenter.heroku.com/articles/git#deploying-code)
 * [mentalized.net](http://mentalized.net/journal/2017/04/22/run-rails-migrations-on-heroku-deploy/)
-
-{% include advertisements.html %}

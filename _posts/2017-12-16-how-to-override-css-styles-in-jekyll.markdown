@@ -23,8 +23,6 @@ There are many themes available for Jekyll, allowing you to choose the look and 
 
     The `@import` line tells Jekyll to import the existing site styles. This means that you don't have to define a completely new set of site styles.
 
-    {% include advertisements.html %}
-
 4. Now you're ready to add or modify your site's stylesheet. Just add your code under the `@import` line. Like so:
 
     ```css

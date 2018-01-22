@@ -30,5 +30,3 @@ Strong knowledge of SQL is very useful for backend development. Most Rails appli
 On of my goals for 2018 is to learn Go-lang. I've written a few small applications with it but I've never taken the time to learn it in depth. The Little Go Book is a great introduction to Go, it's available for free and it's a quick read. The book covers Go's main features, syntax and principles. It's a great book to give you a solid foundation before going on to tackle more challenging books.
 
 I recommend reading through this book with a laptop. Try typing out each snippet of code and getting it to run. This helps the information sink in and also starts to develop muscle memory with the new programming language.
-
-{% include advertisements.html %}
