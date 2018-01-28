@@ -21,3 +21,9 @@ table, td, th {
   float: left;
   padding-left: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+    padding-left: 0px;
+  }
+}
