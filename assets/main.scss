@@ -11,8 +11,19 @@ table, td, th {
     border: 1px solid black;
 }
 
-.image-50-right {
-  width: 50%;
-  float: right;
-  padding-left: 10px;
+.image-40-left {
+  width: 40%;
+  float: left;
+  padding-right: 10px;
+}
+
+.site-nav {
+  float: left;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .site-nav {
+    padding-left: 0px;
+  }
 }
