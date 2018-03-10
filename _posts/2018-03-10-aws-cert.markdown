@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Why I wont be taking the AWS certifications (but will still be studying for them)"
+date:   2018-03-10 16:30:00 +0000
+tags:   Making
+---
+
+Recently I’ve been learning more about AWS. I bought a subscription to [A Cloud Guru](https://acloud.guru/) and I’ve been working through the material. I’ve been learning a lot.
+
+However, I’ve decided against taking the AWS certifications. Here’s why:
+
+1. **AWS is changing so quickly that the certifications become out of date quickly**. I know this because A Cloud Guru frequently mentions parts of AWS that have changed for which the certification hasn’t caught up. I’m not willing to learn out of date information, just to pass a course.
+2. **I don’t need to prove my knowledge**. I don’t want to work as a Devops engineer doing AWS stuff full time. I just want to learn about AWS so that I can build products. Therefore, I’m happy to use A Cloud Guru as a resource for learning without feeling the need to gain the certs.
