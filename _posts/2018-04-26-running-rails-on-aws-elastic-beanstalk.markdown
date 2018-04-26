@@ -148,8 +148,8 @@ The logs told me that Rails couldn't connect to a database. This made sense beca
 
 ```yaml
 production:
-  adapter: mysql2
-  encoding: utf8
+  adapter: postgresql
+  encoding: unicode
   database: <%= ENV['RDS_DB_NAME'] %>
   username: <%= ENV['RDS_USERNAME'] %>
   password: <%= ENV['RDS_PASSWORD'] %>
