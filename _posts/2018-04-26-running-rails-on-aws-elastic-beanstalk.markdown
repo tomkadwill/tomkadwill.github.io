@@ -5,6 +5,8 @@ date:       2018-04-26 21:01:00 +0000
 permalink: 'running-rails-on-aws-elastic-beanstalk'
 ---
 
+![Tom](/assets/elastic-beanstalk-logo.png){:.image-40-left}
+
 I’ve been [building a project](http://tomkadwill.com/2018/03/01/building-stuff.html) and trying to [get my first users](http://tomkadwill.com/getting-my-first-user). After building the MVP I needed to host it somewhere. Initially I used [Heroku’s free plan](https://www.heroku.com/pricing), which is free and super easy to setup. However, this plan is not suitable for production applications because it must sleep for some time each month. To run the app in production I would have to upgrade to the Hobby ($7) or Standard ($25+) plan. It’s not a lot of money but I want my app to be as low cost as possible so I decided to move to AWS Elastic Beanstalk. Amazon offer 1 year free on many services, this gives me time to try to generate revenue from my app.
 
 This blog post is a technical guide to deploying a Rails application on AWS Elastic Beanstalk.
