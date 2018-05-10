@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Restricting devise registration and login routes when using OmniAuth"
-date:       2018-05-03 20:00:00 +0000
+date:       2018-05-10 07:00:00 +0000
 permalink: 'restricting-devise-registration-login-routes-with-omniauth'
 ---
 
