@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Counting Or Sorting By An Association In A Rails SQL Query"
-date:   2017-12-18 18:45:00 +0000
+layout:     post
+title:      "Counting Or Sorting By An Association In A Rails SQL Query"
+comments:   true
+date:       2017-12-18 18:45:00 +0000
 ---
 
 Recently I was tasked with writing a query which had to be sorted by the count of an associated table. I needed to return users, ordered by the number of offers they have. I did some research and made an attempt at some code.

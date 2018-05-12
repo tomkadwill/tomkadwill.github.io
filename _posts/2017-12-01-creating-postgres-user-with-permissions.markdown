@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "Creating a Postgres User with Permissions for a Rails Application"
-date:   2017-12-01 23:22:00 +0000
+layout:     post
+title:      "Creating a Postgres User with Permissions for a Rails Application"
+comments:   true
+date:       2017-12-01 23:22:00 +0000
 ---
 
 I recently started working on a new Rails application, which was using Postgres. The project had a `database.yml` file checked into source control. When trying to run the app, I got an error:

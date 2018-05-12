@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  "Writing every day"
-date:   2018-03-17 13:25:00 +0000
-permalink: 'writing-every-day'
-tags:   Making
+layout:     post
+title:      "Writing every day"
+date:       2018-03-17 13:25:00 +0000
+comments:   true
+permalink:  'writing-every-day'
+tags:       Making
 ---
 
 I’ve started and quit multiple blogs over the years. The habit has never stuck. I think there are three reasons for this:

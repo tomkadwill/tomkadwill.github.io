@@ -1,9 +1,10 @@
 ---
-layout: post
-title:  "Rubocop Naming/MemoizedInstanceVariableName warning"
-date:   2018-03-22 16:58:00 +0000
-permalink: 'rubocop-naming-memoized-instance-variable-name'
-tags:   Ruby Rails
+layout:     post
+title:      "Rubocop Naming/MemoizedInstanceVariableName warning"
+date:       2018-03-22 16:58:00 +0000
+comments:   true
+permalink:  'rubocop-naming-memoized-instance-variable-name'
+tags:       Ruby Rails
 ---
 
 Last week I upgraded [Rubocop](https://github.com/bbatsov/rubocop) to 0.53. I ran the test suite and noticed a new warning called [`Naming/MemoizedInstanceVariableName`](http://www.rubydoc.info/gems/rubocop/RuboCop/Cop/Naming/MemoizedInstanceVariableName), which targets methods that use an instance variable for memoization. Here is an example that would trigger the warning:

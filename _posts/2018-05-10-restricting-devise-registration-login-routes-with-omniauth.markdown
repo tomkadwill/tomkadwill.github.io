@@ -2,7 +2,8 @@
 layout:     post
 title:      "Restricting devise registration and login routes when using OmniAuth"
 date:       2018-05-10 07:00:00 +0000
-permalink: 'restricting-devise-registration-login-routes-with-omniauth'
+comments:   true
+permalink:  'restricting-devise-registration-login-routes-with-omniauth'
 ---
 
 My current project only has one way to login, via GitHub Omniauth. To handle that, I’m using Devise along with the [omniauth-github](https://github.com/omniauth/omniauth-github) gem.

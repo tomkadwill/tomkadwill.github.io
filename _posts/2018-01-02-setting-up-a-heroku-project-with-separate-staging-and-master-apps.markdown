@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Setting Up A Heroku Project With Separate Staging And Master Apps"
-date:   2018-01-02 13:12:00 +0000
-tags:   books
+layout:     post
+title:      "Setting Up A Heroku Project With Separate Staging And Master Apps"
+date:       2018-01-02 13:12:00 +0000
+comments:   true
+tags:       books
 ---
 
 Recently I started working on a new project, which had a separate staging and production Heroku app. The project didn't have much documentation so I needed to figure out how to manage staging and production deploys. Here is what I did:

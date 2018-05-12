@@ -2,7 +2,8 @@
 layout:     post
 title:      "Getting my first user"
 date:       2018-03-29 13:51:00 +0000
-permalink: 'getting-my-first-user'
+comments:   true
+permalink:  'getting-my-first-user'
 ---
 
 I’ve been sitting on a project idea for a while and I’ve finally build the first version. I guess you could call it an alpha release. I’m not ready to share it yet but I’ll be asking a few of my friends to test it.

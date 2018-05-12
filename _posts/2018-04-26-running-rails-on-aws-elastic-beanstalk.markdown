@@ -2,7 +2,8 @@
 layout:     post
 title:      "Running Rails on AWS Elastic Beanstalk (Migrating from Heroku to AWS)"
 date:       2018-04-26 21:01:00 +0000
-permalink: 'running-rails-on-aws-elastic-beanstalk'
+comments:   true
+permalink:  'running-rails-on-aws-elastic-beanstalk'
 ---
 
 ![Tom](/assets/elastic-beanstalk-logo.png){:.image-40-left}

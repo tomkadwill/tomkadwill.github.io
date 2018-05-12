@@ -2,7 +2,8 @@
 layout:     post
 title:      "Build it and they will come"
 date:       2018-04-19 21:44:00 +0000
-permalink: 'build-it-and-they-will-come'
+comments:   true
+permalink:  'build-it-and-they-will-come'
 ---
 
 I’m naturally introverted, socialising is usually a big effort for me. Spending time alone or with my wife is how I recharge. I love building things but I find it difficult to talk about the thing I’ve build and communicate it’s benefits.

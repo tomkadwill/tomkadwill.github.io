@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Stimulus JS"
-date:   2018-02-06 21:10:00 +0000
-tags:   JS Rails
+layout:     post
+title:      "Stimulus JS"
+date:       2018-02-06 21:10:00 +0000
+comments:   true
+tags:       JS Rails
 ---
 
 This blog post is about StimulusJS and whether your business should use it. I'll explain what Stimulus is and the problems that it solves. Lastly, I'll give my opinion about whether it's worth implementing Stimulus.

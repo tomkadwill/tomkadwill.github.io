@@ -1,7 +1,8 @@
 ---
-layout: post
-title:  "How to Override CSS Styles in Jekyll"
-date:   2017-12-16 18:45:00 +0000
+layout:     post
+title:      "How to Override CSS Styles in Jekyll"
+comments:   true
+date:       2017-12-16 18:45:00 +0000
 ---
 
 There are many themes available for Jekyll, allowing you to choose the look and feel of your site. In addition to picking a theme, Jekyll allows you to further customise the style of your site. Here are the steps required to override a theme's CSS:

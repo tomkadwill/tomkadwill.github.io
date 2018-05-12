@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Building stuff"
-date:   2018-03-01 16:18:00 +0000
-tags:   Making
+layout:     post
+title:      "Building stuff"
+date:       2018-03-01 16:18:00 +0000
+comments:   true
+tags:       Making
 ---
 
 Recently I read Scott Adam's book [How to Fail at Almost Everything and Still Win Big](https://www.amazon.co.uk/gp/product/B00FHI0XK2/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=kadwill-21&creative=6738&linkCode=as2&creativeASIN=B00FHI0XK2&linkId=742b24496dd1d3919b4fe3fae58db767). I was impressed at how the author constantly try’s new projects and gains skills from them. That's one of the core tenants of the book. Try to undertake projects where, even if you fail, you will gain skills that can help you in the future.

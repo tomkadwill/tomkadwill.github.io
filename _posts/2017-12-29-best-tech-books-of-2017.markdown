@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Best Tech Books Of 2017"
-date:   2017-12-29 18:12:00 +0000
-tags:   books
+layout:     post
+title:      "Best Tech Books Of 2017"
+date:       2017-12-29 18:12:00 +0000
+comments:   true
+tags:       books
 ---
 
 With 2017 nearly over, it's time to review the best tech books I've read this year. For a full list, you can checkout [Goodreads](https://www.goodreads.com/user_challenges/7997105). In this post I'll be discussing my favourites.

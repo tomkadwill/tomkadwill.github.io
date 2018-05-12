@@ -2,7 +2,8 @@
 layout:     post
 title:      "My first bit of user feedback"
 date:       2018-05-03 20:00:00 +0000
-permalink: 'first-bit-of-user-feedback'
+comments:   true
+permalink:  'first-bit-of-user-feedback'
 ---
 
 I’ve talked about trying to [get my first user](http://tomkadwill.com/getting-my-first-user). I still haven’t released my product idea publicly but I’ve had a small breakthrough. My friend referred me to someone who may need the tool I’m building.

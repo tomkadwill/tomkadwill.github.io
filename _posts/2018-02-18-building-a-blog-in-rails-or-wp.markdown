@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Building a blog in Rails or WordPress"
-date:   2018-02-18 15:41:00 +0000
-tags:   Rails WordPress
+layout:     post
+title:      "Building a blog in Rails or WordPress"
+date:       2018-02-18 15:41:00 +0000
+comments:   true
+tags:       Rails WordPress
 ---
 
 Recently I was tasked with adding a blog to an existing Ruby on Rails project. I decided that it should be a separate code base because there was no need to communicate with the main Rails codebase. I also decided to write the application using Ruby on Rails. My reasons were:

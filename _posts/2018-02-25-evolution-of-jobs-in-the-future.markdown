@@ -1,8 +1,9 @@
 ---
-layout: post
-title:  "Evolution of jobs in the future"
-date:   2018-02-25 15:10:00 +0000
-tags:   Futurism Technology
+layout:     post
+title:      "Evolution of jobs in the future"
+date:       2018-02-25 15:10:00 +0000
+comments:   true
+tags:       Futurism Technology
 ---
 
 A lot has been written about the fact that machines are taking jobs from humans. Many people believe that there will be less and less for humans to do, including [Elon Musk](https://youtu.be/e6HPdNBicM8).
