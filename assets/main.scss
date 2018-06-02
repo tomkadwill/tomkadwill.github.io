@@ -4,17 +4,31 @@
 @import "{{ site.theme }}";
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 table, td, th {
-    border: 1px solid black;
+  border: 1px solid black;
+}
+
+.projects-table, .projects-table table, .projects-table th {
+  border: 0px;
+}
+
+.projects-table td {
+  border: 0px;
+  padding: 10px
 }
 
 .image-40-left {
   width: 40%;
   float: left;
   padding-right: 10px;
+}
+
+.project-logo-image {
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .site-nav {
