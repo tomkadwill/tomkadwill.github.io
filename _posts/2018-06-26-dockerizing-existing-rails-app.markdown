@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Dockerizing an existing Postgres Rails App and using Docker Compose"
-date:       2018-06-26 07:00:00 +0000
+date:       2018-06-26 17:00:00 +0000
 comments:   true
 permalink:  'dockerizing-existing-rails-app'
 ---
