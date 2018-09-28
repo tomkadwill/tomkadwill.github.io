@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "How to Debug a Docker Container in AWS that will not start"
-comments:   true
 date:       2017-12-04 20:54:00 +0000
 ---
 

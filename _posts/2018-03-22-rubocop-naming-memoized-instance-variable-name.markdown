@@ -2,7 +2,6 @@
 layout:     post
 title:      "Rubocop Naming/MemoizedInstanceVariableName warning"
 date:       2018-03-22 16:58:00 +0000
-comments:   true
 permalink:  'rubocop-naming-memoized-instance-variable-name'
 tags:       Ruby Rails
 ---

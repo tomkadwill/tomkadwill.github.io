@@ -2,7 +2,6 @@
 layout:     post
 title:      "Building a blog in Rails or WordPress"
 date:       2018-02-18 15:41:00 +0000
-comments:   true
 tags:       Rails WordPress
 ---
 

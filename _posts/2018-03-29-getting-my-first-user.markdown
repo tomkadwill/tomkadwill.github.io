@@ -2,7 +2,6 @@
 layout:     post
 title:      "Getting my first user"
 date:       2018-03-29 13:51:00 +0000
-comments:   true
 permalink:  'getting-my-first-user'
 ---
 

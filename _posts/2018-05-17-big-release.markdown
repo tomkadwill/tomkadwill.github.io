@@ -2,7 +2,6 @@
 layout:     post
 title:      "Doing a big release"
 date:       2018-05-17 07:00:00 +0000
-comments:   true
 permalink:  'big-release'
 ---
 

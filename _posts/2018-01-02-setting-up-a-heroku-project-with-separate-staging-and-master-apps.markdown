@@ -2,7 +2,6 @@
 layout:     post
 title:      "Setting Up A Heroku Project With Separate Staging And Master Apps"
 date:       2018-01-02 13:12:00 +0000
-comments:   true
 tags:       books
 ---
 

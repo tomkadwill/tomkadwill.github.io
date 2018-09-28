@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "A New Blog"
-comments:   true
 date:       2017-11-30 19:48:20 +0000
 ---
 

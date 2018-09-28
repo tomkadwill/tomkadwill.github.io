@@ -2,7 +2,6 @@
 layout:     post
 title:      "Build it and they will come"
 date:       2018-04-19 21:44:00 +0000
-comments:   true
 permalink:  'build-it-and-they-will-come'
 ---
 

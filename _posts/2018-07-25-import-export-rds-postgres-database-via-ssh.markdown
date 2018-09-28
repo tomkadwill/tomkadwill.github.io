@@ -2,7 +2,6 @@
 layout:     post
 title:      "How to Import/Export an RDS Postgres Database via SSH Tunnel"
 date:       2018-07-25 8:39:00 +0000
-comments:   true
 permalink:  'import-export-rds-postgres-database-via-ssh'
 ---
 

@@ -2,7 +2,6 @@
 layout:     post
 title:      "Building stuff"
 date:       2018-03-01 16:18:00 +0000
-comments:   true
 tags:       Making
 ---
 

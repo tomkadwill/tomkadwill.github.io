@@ -2,7 +2,6 @@
 layout:     post
 title:      "When to use git fetch, git pull and git reset —hard"
 date:       2018-05-24 07:00:00 +0000
-comments:   true
 permalink:  'git-reset-or-git-pull'
 ---
 

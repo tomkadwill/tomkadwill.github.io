@@ -2,7 +2,6 @@
 layout:     post
 title:      "Why I wont be taking the AWS certifications (but will still be studying for them)"
 date:       2018-03-10 16:30:00 +0000
-comments:   true
 tags:       Making
 ---
 

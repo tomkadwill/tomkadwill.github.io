@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "Counting Or Sorting By An Association In A Rails SQL Query"
-comments:   true
 date:       2017-12-18 18:45:00 +0000
 ---
 

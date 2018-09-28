@@ -2,7 +2,6 @@
 layout:     post
 title:      "Running Rails on AWS Elastic Beanstalk (Migrating from Heroku to AWS)"
 date:       2018-04-26 21:01:00 +0000
-comments:   true
 permalink:  'running-rails-on-aws-elastic-beanstalk'
 ---
 

@@ -2,7 +2,6 @@
 layout:     post
 title:      "I released CommitLint"
 date:       2018-05-31 07:00:00 +0000
-comments:   true
 permalink:  'commitlint'
 ---
 

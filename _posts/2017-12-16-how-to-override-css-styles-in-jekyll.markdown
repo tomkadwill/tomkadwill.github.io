@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "How to Override CSS Styles in Jekyll"
-comments:   true
 date:       2017-12-16 18:45:00 +0000
 ---
 

@@ -2,7 +2,6 @@
 layout:     post
 title:      "Stimulus JS"
 date:       2018-02-06 21:10:00 +0000
-comments:   true
 tags:       JS Rails
 ---
 

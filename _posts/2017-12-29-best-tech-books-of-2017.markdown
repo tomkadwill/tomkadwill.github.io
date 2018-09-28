@@ -2,7 +2,6 @@
 layout:     post
 title:      "Best Tech Books Of 2017"
 date:       2017-12-29 18:12:00 +0000
-comments:   true
 tags:       books
 ---
 

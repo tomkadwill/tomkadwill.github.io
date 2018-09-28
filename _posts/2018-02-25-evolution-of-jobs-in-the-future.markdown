@@ -2,7 +2,6 @@
 layout:     post
 title:      "Evolution of jobs in the future"
 date:       2018-02-25 15:10:00 +0000
-comments:   true
 tags:       Futurism Technology
 ---
 

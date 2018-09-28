@@ -1,7 +1,6 @@
 ---
 layout:     post
 title:      "Creating a Postgres User with Permissions for a Rails Application"
-comments:   true
 date:       2017-12-01 23:22:00 +0000
 ---
 

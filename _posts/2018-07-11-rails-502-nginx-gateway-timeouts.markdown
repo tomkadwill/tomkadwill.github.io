@@ -2,7 +2,6 @@
 layout:     post
 title:      "Rails 502 Nginx gateway timeouts"
 date:       2018-07-11 7:30:00 +0000
-comments:   true
 permalink:  'rails-502-nginx-gateway-timeouts'
 ---
 

@@ -2,7 +2,6 @@
 layout:     post
 title:      "Writing every day"
 date:       2018-03-17 13:25:00 +0000
-comments:   true
 permalink:  'writing-every-day'
 tags:       Making
 ---

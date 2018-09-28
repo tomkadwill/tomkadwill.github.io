@@ -2,7 +2,6 @@
 layout:     post
 title:      "My first bit of user feedback"
 date:       2018-05-03 20:00:00 +0000
-comments:   true
 permalink:  'first-bit-of-user-feedback'
 ---
 
