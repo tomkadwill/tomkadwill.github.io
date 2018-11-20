@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-order: 3
+order: 1
 ---
 
 ![Tom](/assets/tom-wales.png){:.image-40-left}
