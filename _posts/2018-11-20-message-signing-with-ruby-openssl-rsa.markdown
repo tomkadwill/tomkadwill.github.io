@@ -21,8 +21,8 @@ First, each user needs a public and private key:
 ```ruby
 rsa_key = OpenSSL::PKey::RSA.new(2048)
 
-private_key_pem = rsa_key.to_pem #=> "chat_public_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqd9paLELcSsdMA....\n-----END PUBLIC KEY-----\n,
-public_key_pem = rsa_key.public_key.to_pem #=> "chat_private_key": "-----BEGIN RSA PRIVATE KEY-----\nMIIEogaY4wKPUV31NCZ\nYrJs+g47/zzHV5GYx5/Wv4zRhDyTi95....\n-----END RSA PRIVATE KEY-----\n,
+private_key_pem = rsa_key.to_pem #=> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqd9paLELcSsdMA....\n-----END PUBLIC KEY-----\n,
+public_key_pem = rsa_key.public_key.to_pem #=> "-----BEGIN RSA PRIVATE KEY-----\nMIIEogaY4wKPUV31NCZ\nYrJs+g47/zzHV5GYx5/Wv4zRhDyTi95....\n-----END RSA PRIVATE KEY-----\n,
 ```
 
 Once keys have been generated, a message can be signed using the private key.
@@ -48,7 +48,7 @@ A user can verify any message signature using the senders public key.
 ```ruby
 public_key = OpenSSL::PKey::RSA.new(public_key_pem)
 
-public_key.verify(OpenSSL::Digest::SHA256.new, signature, message) #=> true
+public_key.verify(OpenSSL::Digest::SHA256.new, signature, message) #=> true/false
 ```
 
 If the decoded signature matches the message then `#verify` will return true. If not, the user’s public key does not match the one used to sign the message.
