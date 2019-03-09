@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: tomkadwill.com
-Token: c94e7c6a2ccab74254ede36ff216178af22aa1534dddab838df67c7f364ab780
