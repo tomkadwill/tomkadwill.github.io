@@ -65,6 +65,5 @@ timeout problems were completely fixed by switching to Puma.
 * [blog.scoutapp.com/articles/2017/02/10/which-ruby-app-server-is-right-for-you](http://blog.scoutapp.com/articles/2017/02/10/which-ruby-app-server-is-right-for-you)
 * [stackoverflow.com/questions/25834333/what-exactly-is-a-pre-fork-web-server-model](https://stackoverflow.com/questions/25834333/what-exactly-is-a-pre-fork-web-server-model)
 * [wikipedia.org/wiki/Fork_(system_call)](https://en.wikipedia.org/wiki/Fork_(system_call))
-* [geekride.com/fork-forking-vs-threading-thread-linux-kernel](http://www.geekride.com/fork-forking-vs-threading-thread-linux-kernel/)
 * [unix.stackexchange.com/questions/136637/why-do-we-need-to-fork-to-create-new-processes](https://unix.stackexchange.com/questions/136637/why-do-we-need-to-fork-to-create-new-processes)
 * [blog.heroku.com/unicorn_rails](https://blog.heroku.com/unicorn_rails)
