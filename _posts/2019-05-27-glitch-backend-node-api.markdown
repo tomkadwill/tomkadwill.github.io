@@ -5,11 +5,11 @@ date:       2019-05-27 19:54:00 +0000
 permalink:  'glitch-backend-node-api'
 ---
 
-This tutorial is a series on building an application on [Glitch](https://glitch.com). Glitch was created by [Joe Spolsky’s](https://en.wikipedia.org/wiki/Joel_Spolsky) company, who is also behind Stackoverflow and Trello. Glitch allows users to collaborate and build applications. It has a built in editor, hosts code and runs application.
+This tutorial is a series on building an application on [Glitch](https://glitch.com). Glitch was created by [Joe Spolsky’s](https://en.wikipedia.org/wiki/Joel_Spolsky) company, who is also behind Stackoverflow and Trello. Glitch allows users to collaborate and build applications. It has a built in editor, hosts code and runs applications.
 
 In this post we’ll build the backend API for a notes application using Node, Express and SQLite. The application will have 4 RESTful API endpoints: `GET /notes`, `GET /note/:id`, `POST /notes` and `DELETE /notes/:id`.
 
-If you’d like to follow along, you’ll need a Glitch account. Head over to [glitch.com](https://glitch.com) and signup. Once you have an account you can create a new project. For this tutorial, chose the "hello-sqlite" template.
+If you want to follow along, you’ll need a Glitch account. Head over to [glitch.com](https://glitch.com) and signup. Once you have an account you can create a new project. For this tutorial, chose the "hello-sqlite" template.
 
 ![glitch-new-project](/assets/glitch-backend-node-api/glitch-create-new-project.png)
 
@@ -17,7 +17,7 @@ This template includes a Node application with an SQLite database. The Node appl
 
 ![glitch-new-project](/assets/glitch-backend-node-api/glitch-new-project.png)
 
-We don’t need the pre-built application because we are building the application from scratch. The first thing to do is delete `public/client.js` and `public/style.css` because they are not required for a backend applicationT.
+We don’t need the pre-built application because we're building the application from scratch. The first thing to do is delete `public/client.js` and `public/style.css` because they are not required for a backend applications.
 
 ### Index page
 
@@ -79,7 +79,7 @@ However, these packages should go under `devDependencies` because they are only 
   "engines": {
 ```
 
-Normally you would have to run a command to install the new dependencies, after updating `package.json`. However, Glitch handles this automatically. It will automatically save the file and install the new packages.
+Normally you would have to run a command to install the new dependencies, after updating `package.json`. However, Glitch handles this for you. It will automatically save the file and install the new packages.
 
 With the test packages installed we need to add a test script so that we can run mocha. Add the following line under the start script in `package.json`.
 
@@ -108,7 +108,7 @@ You’ll get an error message because we haven’t written any tests yet. Let’
 
 ![glitch-new-project](/assets/glitch-backend-node-api/glitch-new-file.png)
 
-For the first test we can check that the docs page returns a 200 response code. A nice simple test to start with. The code looks like this:
+For the first test we'll check that the docs page returns a 200 response code. A nice simple test to start with. The code looks like this:
 
 ```javascript
 const chai = require('chai');
@@ -130,7 +130,7 @@ describe('notes API', function() {
 
 The test will not run at the moment because `app` is undefined. We need to figure out how to import the node application so that it can be tested. Currently all application logic is inside `server.js`. Lets create a new file called `app.js` in the project root directory, which will contain the controller/routing logic. This file can be imported into `server.js` and `test.js`. We'll move all of the application logic into `app.js` leaving only the server listener in `server.js`.
 
-Your `app.js` file should look like:
+`app.js` should look like this:
 
 ```javascript
 // init project
@@ -188,7 +188,7 @@ app.get('/getDreams', function(request, response) {
 });
 ```
 
-And your `server.js` file should look like this:
+And `server.js` should look like this:
 
 ```javascript
 // server.js
@@ -229,7 +229,7 @@ describe('notes API', function() {
   describe('GET /', function() {
 ```
 
-If we run the test again we'll get another error because `chai.request` is not defined. We need to call `chai.use()` to enable Chai to use Chai HTTP:
+If we run the test again we'll get another error because `chai.request` is not defined. We need to call `chai.use(chaiHttp)` to enable Chai to use Chai HTTP:
 
 ```diff
 const chai = require('chai');
@@ -315,7 +315,7 @@ app.get('/notes', function(request, response) {
 module.exports = app;
 ```
 
-Now we’re in a position to add the DB layer. We’re going to use [Sequelize](https://github.com/sequelize/sequelize), which is a popular Node ORM. First we need to add the latest version of `sequelize` to `package.json`. You can use Glitch’s `add package` feature for this.  
+Now we’re in a position to add the database layer. We’re going to use [Sequelize](https://github.com/sequelize/sequelize), which is a popular Node ORM. First we need to add the latest version of `sequelize` to `package.json`. You can use Glitch’s `add package` feature for this.  
 
 ![glitch-new-project](/assets/glitch-backend-node-api/glitch-add-sequelize.png)
 
@@ -336,7 +336,7 @@ Successfully created seeders folder at "/app/seeders".
 
 Because Glitch is UI driven you won’t see CLI generated files unless you run `refresh` in the console.
 
-Next we need to add a migration, which is a way to describe database changed in code. Running a migration performs database changes in a controlled, repeatable way. We want to create a `notes` table with `id`, `title`, `content`, `created at` & `updated at` fields. Sequelize allows you to generate migrations via the CLI:
+Next we need to add a migration, which is a way to describe database changes in code. Running a migration performs database changes in a controlled, repeatable way. We want to create a `notes` table with `id`, `title`, `content`, `created at` & `updated at` fields. Sequelize allows you to generate migrations via the CLI:
 
 ```
 $ npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
@@ -638,7 +638,7 @@ $ curl -X "DELETE" https://<your-app-name>.glitch.me/note/<id-of-a-note>
 
 ### That’s it!
 
-We’ve built the backend for a simple notes app. You can checkout the [completed project on Glitch](https://glitch.com/~notes-app-backend). I’ll be releasing a follow up tutorial soon with a guide to building the frontend using React. I also plan on posting an in-depth review of Glitch so stay tuned for that.
+We’ve built the backend for a simple notes app. You can checkout the [completed project on Glitch](https://glitch.com/~notes-app-backend). I’ll be releasing a follow up tutorial soon with a guide to building the frontend with React. I also plan on posting an in-depth review of Glitch so stay tuned for that.
 
 ### References:
 
