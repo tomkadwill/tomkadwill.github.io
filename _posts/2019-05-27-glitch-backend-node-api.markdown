@@ -638,7 +638,7 @@ $ curl -X "DELETE" https://<your-app-name>.glitch.me/note/<id-of-a-note>
 
 ### That’s it!
 
-We’ve built the backend for a simple notes app. You can checkout the [completed project on Glitch](https://glitch.com/~notes-app-backend). I’ll be releasing a follow up tutorial soon with a guide to building the frontend with React. I also plan on posting an in-depth review of Glitch so stay tuned for that.
+We’ve built the backend for a simple notes app. You can see the [completed project on Glitch](https://glitch.com/~notes-app-backend). I’ll be releasing a follow up tutorial soon with a guide to building the frontend with React. I also plan on posting an in-depth review of Glitch so stay tuned for that.
 
 ### References:
 
