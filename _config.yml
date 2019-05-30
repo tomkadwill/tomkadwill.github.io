@@ -26,6 +26,8 @@ google_analytics: UA-110529614-1
 # Build settings
 markdown: kramdown
 theme: minima
+disqus:
+  shortname: tomkadwill-1
 plugins:
   - jekyll-feed
 
