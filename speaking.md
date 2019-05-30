@@ -2,7 +2,7 @@
 layout: page
 title: Speaking
 permalink: /speaking/
-order: 3
+order: 4
 ---
 
 ### Upcoming talks
