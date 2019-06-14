@@ -2,16 +2,10 @@
 layout: page
 title: About
 permalink: /about/
-order: 1
 ---
 
 ![Tom](/assets/tom-wales.png){:.image-40-left}
 
-My name is Tom Kadwill. I'm a [programmer](https://github.com/tomkadwill) and occasional [writer](/). I live just outside
-London, in a place called Leigh on Sea. I work for a healthtech startup called Ryalto. I blog about technology, code, web
-and other related topics.
+Hi, I'm Tom Kadwill and I make stuff on the internet. I live in the U.K, just outside London. By day I work as a software developer, by night I [write](/) and make [videos](https://www.youtube.com/user/kadwill/videos) about interesting technology. Sometimes these [projects get released into the wild](/projects).
 
-I built a SaaS product called [CommitLint](https://commitlint.com). I'm on [twitter](https://twitter.com/tomkadwill).
-I've made some [YouTube videos](https://www.youtube.com/user/kadwill/videos).
-
-If you want to contact me, go ahead send an email to <a href="mailto:tomkadwill@gmail.com">tomkadwill@gmail.com</a>
+You can contact me on [Twitter](https://twitter.com/tomkadwill) or via <a href="mailto:tomkadwill@gmail.com">tomkadwill@gmail.com</a>.

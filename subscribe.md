@@ -2,7 +2,6 @@
 layout: page
 title: Subscribe
 permalink: /subscribe/
-order: 3
 hide_subscribe_form_in_footer: true
 ---
 

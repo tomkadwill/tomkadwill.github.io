@@ -19,12 +19,12 @@
         </label>
 
         <div class="trigger">
-          {% assign sorted_pages = site.pages | sort:"order" %}
-          {% for node in sorted_pages %}
-            {% if node.title %}
-              <a class="page-link" href="{{ node.url | relative_url }}">{{ node.title | escape }}</a>
-            {% endif %}
-          {% endfor %}
+          <a class="page-link" href="{{ '/about' }}">About</a>
+          <a class="page-link" href="https://www.youtube.com/user/kadwill/videos">Videos</a>
+          <a class="page-link" href="{{ '/projects' }}">Projects</a>
+          <a class="page-link" href="{{ '/subscribe' }}">Subscribe</a>
+          <a class="page-link" href="{{ '/contact' }}">Contact</a>
+          <a class="page-link" href="{{ '/support' }}">Support!</a>
         </div>
       </nav>
     {% endif %}
