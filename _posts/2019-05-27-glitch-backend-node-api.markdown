@@ -9,6 +9,8 @@ This tutorial is a series on building an application on [Glitch](https://glitch.
 
 In this post we’ll build the backend API for a notes application using Node, Express and SQLite. The application will have 4 RESTful API endpoints: `GET /notes`, `GET /note/:id`, `POST /notes` and `DELETE /notes/:id`.
 
+_You can also watch the [videos for this post on YouTube](https://www.youtube.com/playlist?list=PLbTv9eGiI03vz9CY4Ch35r9T_Og2WT_Tx)._
+
 If you want to follow along, you’ll need a Glitch account. Head over to [glitch.com](https://glitch.com) and signup. Once you have an account you can create a new project. For this tutorial, chose the "hello-sqlite" template.
 
 ![glitch-new-project](/assets/glitch-backend-node-api/glitch-create-new-project.png)
@@ -269,9 +271,10 @@ Now that we have a passing test for the index page we can move on to writing a t
 +          .get('/notes')
 +          .end((err, res) => {
 +            res.should.have.status(200);
-+            res.body.length.should.eql(1)
-+            res.body[0].title.should.eql('A test note')
-+            res.body[0].content.should.eql('Content of test note')
++            const responseBody = JSON.parse(res.body)
++            responseBody.length.should.eql(1)
++            responseBody[0].title.should.eql('A test note')
++            responseBody[0].content.should.eql('Content of test note')
 +            done();
 +          });
 +    });
@@ -339,7 +342,7 @@ Because Glitch is UI driven you won’t see CLI generated files unless you run `
 Next we need to add a migration, which is a way to describe database changes in code. Running a migration performs database changes in a controlled, repeatable way. We want to create a `notes` table with `id`, `title`, `content`, `created at` & `updated at` fields. Sequelize allows you to generate migrations via the CLI:
 
 ```
-$ npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
+$ npx sequelize-cli model:generate --name Note --attributes title:string,content:string
 ```
 
 Run `refresh` again to see what was generated.
