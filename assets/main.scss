@@ -26,6 +26,12 @@ table, td, th {
   padding-right: 10px;
 }
 
+.image-40-right {
+  width: 40%;
+  float: right;
+  padding-left: 10px;
+}
+
 .image-50 {
   max-width: 50%;
   float: left;
@@ -41,13 +47,12 @@ table, td, th {
   padding-left: 30px;
 }
 
+.site-header {
+  border-bottom: none;
+}
+
 @media screen and (max-width: 600px) {
   .site-nav {
     padding-left: 0px;
   }
-}
-
-#mc_embed_signup {
-  border-top: 1px solid #e8e8e8;
-  padding: 30px 0;
 }
