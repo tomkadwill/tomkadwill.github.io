@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-![Tom](/assets/tom-wales.png){:.image-40-left}
+![Tom](/assets/tom-wales.png){:.image-40-right}
 
-Hi, I'm Tom Kadwill and I make stuff on the internet. I live in the U.K, just outside London. By day I work as a software developer, by night I [write](/) and make [videos](https://www.youtube.com/user/kadwill/videos) about interesting technology. Sometimes these [projects get released into the wild](/projects).
+Hi, I'm Tom Kadwill and I make stuff on the internet. By day I work as a software developer, by night I build [products](/projects), [write](/) and occasionally post [videos](https://www.youtube.com/user/kadwill/videos).
 
-You can contact me on [Twitter](https://twitter.com/tomkadwill) or via <a href="mailto:tomkadwill@gmail.com">tomkadwill@gmail.com</a>.
+I'm interested in technology, [software products](https://www.producthunt.com/@tomkadwill), UX and [bootstrapped businesses](https://www.indiehackers.com/tomkadwill).
+
+You can contact me on [Twitter](https://twitter.com/tomkadwill) or at <a href="mailto:tomkadwill@gmail.com">email</a>.
