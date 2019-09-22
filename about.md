@@ -10,4 +10,4 @@ Hi, I'm Tom Kadwill and I make stuff on the internet. By day I work as a softwar
 
 I'm interested in technology, [software products](https://www.producthunt.com/@tomkadwill), UX and [bootstrapped businesses](https://www.indiehackers.com/tomkadwill).
 
-You can contact me on [Twitter](https://twitter.com/tomkadwill) or at <a href="mailto:tomkadwill@gmail.com">email</a>.
+You can contact me on [Twitter](https://twitter.com/tomkadwill) or by <a href="mailto:tomkadwill@gmail.com">email</a>.
