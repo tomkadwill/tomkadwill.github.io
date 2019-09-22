@@ -13,7 +13,7 @@ I effectively let the product die, until I received an email from GitHub in 2019
 
 ### Future improvements
 
-I'm happy that GitHub opened up the marketplace but there is still room for improvement. The homepage is not good for discoverability. The iOS app store, by contrast, is continually showing new apps and spotlighting developers. The GitHub marketplace is very static, only showing the most popular and newest apps.
+I'm happy that GitHub opened up the marketplace but there is still room for improvement. The homepage is not good for discoverability. The iOS app store, by contrast, is continually showing new apps and spotlighting developers. The GitHub marketplace feels static, only showing the most popular and newest apps.
 
 ### Go make something
 
