@@ -34,6 +34,8 @@ I try to post regularly. If you like my writing, please subscribe.
 
 You can see a [full list of all my posts](/posts) or read the most popular below.
 
+* [12 Startups In 12 month, The Good And Bad](/12-startups-12-months)
+
 * [GitHub Marketplace Unverified Listings](/github-marketplace-unverified-listing)
 
 * [When to use git fetch, git pull and git reset --hard](/git-reset-or-git-pull)
