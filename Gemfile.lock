@@ -245,6 +245,7 @@ DEPENDENCIES
   github-pages
   jekyll (~> 3.7.4)
   jekyll-feed (~> 0.11)
+  jekyll-sitemap
   minima (~> 2.5)
   tzinfo-data
 
