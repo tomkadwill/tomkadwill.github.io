@@ -1,4 +1,0 @@
-Sitemap: https://tomkadwill.com/sitemap.xml
-
-User-agent: *
-Allow: /
