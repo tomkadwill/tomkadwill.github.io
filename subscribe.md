@@ -2,7 +2,7 @@
 layout: page
 permalink: /subscribe/
 hide_subscribe_form_in_footer: true
-title: Articles about tech, products & software.
+title: Newsletter
 ---
 
 <!-- Begin Mailchimp Signup Form -->
@@ -15,7 +15,8 @@ title: Articles about tech, products & software.
 <div id="mc_embed_signup">
 <form action="https://tomkadwill.us7.list-manage.com/subscribe/post?u=858170d1a069716d224d84218&amp;id=ddcdaff721" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-    <p>No more than 1 per week</p>
+    <h3>Tech. Products. Learning</h3>
+    <p>One email per week about tech. What I've been making, stuff I've been learning and products I've been using</p>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_858170d1a069716d224d84218_ddcdaff721" tabindex="-1" value=""></div>
