@@ -154,3 +154,7 @@ SELECT COUNT(offers.id) AS offers_count, users.name AS user_name, offers.name AS
 However, you'll notice that the results are not the same as results from MySQL. The only solution I've found is to re-write the query in a different way or to do some of the work in Ruby.
 
 I hope this post helps anyone who is having issues with `#group` and `#order` in Rails.
+
+<div style="border-radius: 15px;background: #ffea92;padding: 20px;">
+  If want some help building a Rails Apps, please <a href="/contact">contact me</a>.
+<div>

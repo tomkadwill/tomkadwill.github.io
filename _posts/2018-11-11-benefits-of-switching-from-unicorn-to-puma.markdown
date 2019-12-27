@@ -60,6 +60,10 @@ Most Rails applications spend a significant amount of time writing/reading from 
 Anyone who is running Unicorn, without good reason, should switch to Puma. In my case, our application’s 500
 timeout problems were completely fixed by switching to Puma.
 
+<div style="border-radius: 15px;background: #ffea92;padding: 20px;">
+  If want some help building performant Rails Apps, please <a href="/contact">contact me</a>.
+<div>
+
 ### Further Reading
 * [Unicorn's documentation](https://bogomips.org/unicorn/)
 * [blog.scoutapp.com/articles/2017/02/10/which-ruby-app-server-is-right-for-you](http://blog.scoutapp.com/articles/2017/02/10/which-ruby-app-server-is-right-for-you)
