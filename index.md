@@ -6,9 +6,11 @@ layout: page
 title: Hi, I'm Tom Kadwill
 ---
 
-I'm a software developer interested in technology, software products, UX and bootstrapped businesses.
+I'm a software developer and product designer. I like to build things and document the journey.
 
-I try to post regularly. If you like my writing, please subscribe.
+See my best posts below or check out the [archive](/posts). You can also find me on [Twitter](https://twitter.com/tomkadwill), [YouTube](https://www.youtube.com/user/kadwill/videos) & [ProductHunt](https://www.producthunt.com/@tomkadwill/made).
+
+If you like my writing, subscribe to get posts in your inbox.
 
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
