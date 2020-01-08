@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: Projects
+title: A list of things I've made
 permalink: /projects/
 ---
 

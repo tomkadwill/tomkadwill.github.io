@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: About
+title: About Me
 permalink: /about/
 ---
 
@@ -12,8 +12,6 @@ I'm a full stack developer, based in the UK. I've been creating things on the we
 
 I'm passionate about software, technology and design. I spend most of my time working with Ruby and JavaScript. Throughout my career I've worked on both backend and frontend.
 
-I love to write, mostly on [this blog](/) but I've also written for [StackAbuse](https://stackabuse.com/author/tom). And occasionally I make [videos](https://www.youtube.com/user/kadwill/videos).
+I love to [write](/posts) and publish [videos](https://www.youtube.com/user/kadwill/videos) about the stuff I'm building.
 
-Over the years I've created and contributed to many projects, some OSS and some not. You can follow me on [GitHub](http://github.com/tomkadwill) and [ProductHunt](https://www.indiehackers.com/tomkadwill) to keep up to date with my stuff. The projects that I currently maintain are:
-* <a href="https://commitcheck">CommitCheck</a>
-* <a href="https://prscheduler">PR Scheduler</a>
+Over the years I've worked on many [projects](/projects), some OSS some not. You can follow me on [GitHub](http://github.com/tomkadwill) and [ProductHunt](https://www.indiehackers.com/tomkadwill) to keep up to date.
