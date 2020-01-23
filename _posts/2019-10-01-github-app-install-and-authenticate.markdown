@@ -39,5 +39,5 @@ In this case, you don't have to worry about ignoring `state`. Because the reques
 If your site already has OAuth login then **Setup URL (optional)** will be easier because it plugs straight into your existing OAuth setup. This was the case for [CommitCheck](https://commitcheck.com). However, if you don't have OAuth login on your site (eg: [PR Scheduler](https://prscheduler.com)) you may as well have GitHub handle everything and use **Request user authorization (OAuth) during installation**.
 
 <div style="border-radius: 15px;background: #ffea92;padding: 20px;">
-  If want some help building a GitHub App, please <a href="/contact">contact me</a>.
+  If you want some help building a GitHub App, please <a href="/contact">contact me</a>.
 <div>
