@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "GitHub API Repo Authorization"
+title:      "GitHub Repo Authorization with the Permission API"
 date:       2020-02-26 17:53:00 +0000
-permalink:  'github-api-repo-authorization'
+permalink:  'github-repo-authorization-with-the-permission-api'
 ---
 
 Checking user authorization for repos is important for services that integrate with GitHub. I've used it in [CommitCheck](https://commitcheck.com) and may need to implement it in [PRScheduler](https://prscheduler.com) too.
