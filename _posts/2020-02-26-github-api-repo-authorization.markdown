@@ -5,9 +5,9 @@ date:       2020-02-26 17:53:00 +0000
 permalink:  'github-api-repo-authorization'
 ---
 
-Checking user authorization for repos is important for services that integrate with GitHub. I've used it in [CommitCheck](https://commitcheck.com) and may need to implement it in [PRScheduler](https://prscheduler) too.
+Checking user authorization for repos is important for services that integrate with GitHub. I've used it in [CommitCheck](https://commitcheck.com) and may need to implement it in [PRScheduler](https://prscheduler.com) too.
 
-I needed authorization for CommitCheck's [status page](https://twitter.com/TomKadwill/status/1218280859465342976/photo/1). When a user visits a status page url, It should check that the user actually has repo access. To do that, I used GitHub's permissions API.
+I needed authorization for CommitCheck's [status page](https://twitter.com/TomKadwill/status/1218280859465342976). When a user visits a status page url, It should check that the user actually has repo access. To do that, I used GitHub's permissions API.
 
 ### Implementation
 
