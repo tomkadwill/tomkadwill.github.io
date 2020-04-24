@@ -27,7 +27,7 @@ From there, it didn’t take long to find a job. I’m very fortunate to work as
 
 I hope you enjoyed the story. It’s completely true, to the best of my recollection. Before moving on, I think it’s worth trying to extract some lessons.
 
-#### 1. Focus on core feature
+#### 1. Focus on a core feature
 
 Most new tech products have one core feature. This can also be thought of as a ‘soundbite’ about what the app does. Twitter had 140 character tweets. Uber allowed you to hire a limousine with a few clicks. Dropbox let you sync files across all your devices.
 
@@ -35,22 +35,22 @@ The company in my story started with a core idea: Allow contract hospital worker
 
 The problem is, each of these ideas is a company in itself. A startup cannot handle all of them. It must choose one and do it well. Adding features did not make our app more attractive to users. Adding features diluted the app and made it more confusing.
 
-TODO: continue from here 2nd draft
+#### 2. Tech people should be close to users
 
-#### 2. Tech should work closely with operations team and users
+An initial startup idea may not be successful but customer feedback can help you pivot to a better idea. To facilitate that feedback cycle you ideally want developers speaking to users. If that’s not possible you want sales or operations people to be working closely with developers.
 
-The initial startup idea may not be what users want. Once a startup releases something into the market they often need to iterate and evolve the product based on user feedback. To facilitate that you ideally want the developers speaking to users. If that’s not possible you want those people who are talking to users to be working as closely with developers as possible.
-
-At Ryalto the operations team and tech team did not work closely together. Features were often built wrong or slowly due to the message being diluted as it was passed through so many people.
+In my case, the operations and tech team did not work closely together. Features were often built slowly and incorrectly due to messages passing through so many people.
 
 #### 3. Trust is important, don’t work for a company that isn’t transparent
 
-Working at a startup requires a lot of trust. More so than working at a big company, I would say. Bigger companies have public press releases, share option schemes, defined job titles etc. At a startup, the company nobody knows what’s going on. To get through this uncertainty it helps to trust your team. More importantly it helps to trust the founders/leaders of the company.
+Working at a startup requires a lot of trust. More so than working at a big company, in my opinion. Big companies have public press releases, share option schemes, defined job titles etc. At a startup, everything is uncertain. To get through this uncertainty it helps to trust your team. More importantly it helps to trust the founders/leaders of the company.
 
-At Ryalto, over time, I no-longer trusted the founder/main-investor along with the CEO and COO. I began to suspect they were hiding information. Being in that redundancy meeting at 9am was a good example. I was completely blindsided. I had not received any indication that the company was running out of funding or that we might have to tighten our budget. The news was bad but what was really bad was that I had lost my trust in the company.
+I no-longer trusted the management of my ex-company. I began to suspect they were hiding information. Sitting in that redundancy meeting at 9am was a good example. I was completely blindsided. I had no idea that the company was running out of funding or that we may have to reduce spending. The news was bad but what made it worse was the lack of communication and transparency.
 
-#### 4. As an engineer, don’t ignore the way the business makes money (or plans to). When you join a company, ask those questions and make sure they make sense to you
+TODO: continue from here 2nd draft
 
-When looking for a new job, as a developer, it’s easy to focus on the tech stack. That’s what you’ve spent your career learning and that’s what you’re comfortable talking about. But what’s equally important is to ask questions about the company’s business model and future plans to make money. If you don’t think the companies business plan is viable do not ignore it. Ask more questions until it does make sense or walk away.
+#### 4. Understand the business model before joining a company
 
-I had many doubts about the way Ryalto were executing on their business model and I chose to ignore those feeling. I should have dug deeper to learn more. Ultimately I would have found that the companies strategy for making money did not make sense.
+As a developer, when looking for a new job, it's easy to focus on the tech stack. That’s what you do everyday and that’s what you’re comfortable talking about. But it's equally important to ask questions about the company’s business model and future plans to make money. If you don’t think the companies business plan is viable, don't ignore it. Ask more questions until it does make sense or walk away.
+
+In hindsight, I did not ask enough questions about my ex-companies business model. When I joined, I did not really understand how they planed to make money. In future, I will be more careful.
