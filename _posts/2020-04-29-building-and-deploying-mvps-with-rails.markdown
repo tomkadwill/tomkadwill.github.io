@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Building and deploying MVPs with Ruby on Rails"
-date:       2020-04-39 07:21:00 +0000
+date:       2020-04-29 07:21:00 +0000
 permalink:  'building-and-deploying-mvps-with-rails'
 ---
 
