@@ -47,8 +47,6 @@ Working at a startup requires a lot of trust. More so than working at a big comp
 
 I no-longer trusted the management of my ex-company. I began to suspect they were hiding information. Sitting in that redundancy meeting at 9am was a good example. I was completely blindsided. I had no idea that the company was running out of funding or that we may have to reduce spending. The news was bad but what made it worse was the lack of communication and transparency.
 
-TODO: continue from here 2nd draft
-
 #### 4. Understand the business model before joining a company
 
 As a developer, when looking for a new job, it's easy to focus on the tech stack. That’s what you do everyday and that’s what you’re comfortable talking about. But it's equally important to ask questions about the company’s business model and future plans to make money. If you don’t think the companies business plan is viable, don't ignore it. Ask more questions until it does make sense or walk away.
