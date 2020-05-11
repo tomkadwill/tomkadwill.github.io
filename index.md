@@ -38,6 +38,8 @@ You can see a [full list of all my posts](/posts) or read the most popular below
 
 * [12 Startups In 12 month, The Good And Bad](/12-startups-12-months)
 
+* [Building and Deploying MVPs with Rails](/building-and-deploying-mvps-with-rails)
+
 * [GitHub Marketplace Unverified Listings](/github-marketplace-unverified-listing)
 
 * [When to use git fetch, git pull and git reset --hard](/git-reset-or-git-pull)
@@ -51,7 +53,4 @@ You can see a [full list of all my posts](/posts) or read the most popular below
 * [How to Override CSS Styles in Jekyll](/2017/12/16/how-to-override-css-styles-in-jekyll)
 
 * [Dockerizing Existing Rails App](/dockerizing-existing-rails-app)
-
-* [Stimulus JS](/2018/02/06/stimulus-js)
-
 
