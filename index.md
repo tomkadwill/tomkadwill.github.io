@@ -36,6 +36,8 @@ If you like my writing, subscribe to get posts in your inbox.
 
 You can see a [full list of all my posts](/posts) or read the most popular below.
 
+* [Rails API Tutorial Series](/rails-api-tutorial-part-1-create-rails-api-project-and-routing)
+
 * [12 Startups In 12 month, The Good And Bad](/12-startups-12-months)
 
 * [Building and Deploying MVPs with Rails](/building-and-deploying-mvps-with-rails)
