@@ -1,8 +1,9 @@
 ---
-layout:     post
-title:      "Rails API Tutorial, Part 1: Creating Rails API Project and Routing"
-date:       2020-06-28 12:56:00 +0000
-permalink:  'rails-api-tutorial-part-1-create-rails-api-project-and-routing'
+layout:             post
+title:              "Rails API Tutorial, Part 1: Creating Rails API Project and Routing"
+date:               2020-06-28 12:56:00 +0000
+permalink:          'rails-api-tutorial-part-1-create-rails-api-project-and-routing'
+last_modified_at:   2020-07-02 7:30:00 +0000
 ---
 
 Welcome to the Rails 6 API tutorial. In this series we'll walk through building a backend API using Ruby on Rails. The topics in this series include:
@@ -23,11 +24,13 @@ In this tutorial series we're going to build an book store, to complete with Ama
 
 #### Installing Rails
 
-TODO
+This tutorial assumes you have Ruby/Rails installed on your machine. If you haven't done so already [GoRails has a good tutorial on how to do that](https://gorails.com/setup/osx/10.15-catalina).
 
 #### Creating a new Rails API app
 
 For a full list of what Rails API-only applications include, you can [read the docs](https://guides.rubyonrails.org/api_app.html). At a high level, Rails API does not include the view rendering logic but does include controllers, models, routing, etc.
+
+Let's create a new Rails API-only application. I'm naming my application 'nile' but you can call it whatever you want:
 
 ```
 $ rails new nile --api
