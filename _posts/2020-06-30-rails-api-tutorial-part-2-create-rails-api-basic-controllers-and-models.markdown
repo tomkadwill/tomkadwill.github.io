@@ -13,5 +13,6 @@ Welcome to the Rails 6 API tutorial. In this series we'll walk through building 
 4. [HTTP Status Codes](/rails-api-tutorial-part-4-http-status-codes)
 5. [Active Record Validations](/rails-api-tutorial-part-5-active-record-validations)
 6. [Destroy Controller Action](/rails-api-tutorial-part-6-destroy-controller-action)
+7. [Exception Handling in Controllers](/rails-api-tutorial-part-7-exception-handling-in-controllers)
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//nCb_mqAKusg' frameborder='0' allowfullscreen></iframe></div>
