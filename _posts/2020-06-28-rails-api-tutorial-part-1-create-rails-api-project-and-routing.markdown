@@ -19,19 +19,19 @@ Welcome to the Rails 6 API tutorial. In this series we'll walk through building 
 
 #### My background
 
-I'm a software engineer with 10 years industry experience and I've been building Ruby on Rails applications for the majority of that time. A lot of my time with Rails has been spent working on backend API applications. In this tutorial I want to share that knowledge.
+I'm a software engineer with 10 years industry experience and I've been building Ruby on Rails applications for much of that time. A lot of my time with Rails has been spent working on backend APIs. In this tutorial I want to share that knowledge.
 
 #### The application
 
-In this tutorial series we're going to build an API backend for a book store.
+In this tutorial series we're going to build an API backend for a book store. The API should allow us to do things like list the books we have in store, add new books to the store and delete books from our store's database.
 
 #### Installing Rails
 
-This tutorial assumes you have Ruby/Rails installed on your machine. If you haven't done so already [GoRails has a good tutorial on how to do that](https://gorails.com/setup/osx/10.15-catalina).
+This tutorial assumes you have Ruby/Rails installed on your machine. If you haven't done so already [GoRails has a good guide on how to do that](https://gorails.com/setup/osx/10.15-catalina).
 
 #### Creating a new Rails API app
 
-For a full list of what Rails API-only applications include, you can [read the docs](https://guides.rubyonrails.org/api_app.html). At a high level, Rails API does not include the view rendering logic but does include controllers, models, routing, etc.
+To build the application we're going to be using Rails API-only. This allows us to generate a specialised Rails application that has all the functionality required for building APIs. For a full list of what Rails API-only applications include, you can [read the docs](https://guides.rubyonrails.org/api_app.html). At a high level, Rails API-only does not include the view rendering logic but does include controllers, models, routing, etc.
 
 Let's create a new Rails API-only application. I'm naming my application "nile" but you can call it whatever you want. To create the application run the following command in the terminal:
 
@@ -72,14 +72,71 @@ $ cd nile
 $ code .
 ```
 
-#### Listing routes
+#### Adding the first API route
 
-Now that we have initialized our Rails project let's look at how we can list routes within our application. Routes map URLs to controllers. You can think of them as the entry point for users to interact with our application. Rails has a built in command which lists all the routes in our application:
+Now that we have initialized the Rails project we can start working on the first API endpoint. To start with, we're going to be adding an endpoint to return all of the books we have in our store. The route should look like: `localhost:3000/books`. To do that we can add the following to `config/routes.rb`:
+
+```ruby
+Rails.application.routes.draw do
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get '/books' => 'books#index'
+end
+```
+
+To see what this has done, we can run `rake routes` via the command line:
 
 ```
 $ bin/rails routes
 ```
 
-#### Adding a route for listing books
+If you scroll to the top of the console output, you should see the new route at the top:
 
-TODO
+```
+Prefix Verb   URI Pattern           Controller#Action
+books  GET    /books(.:format)      books#index
+```
+
+Our route is correct but we can re-write it in a nicer way:
+
+```ruby
+Rails.application.routes.draw do
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :books
+end
+```
+
+The `resources` method will generate all 7 restful resources. If we run `rake routes` again we see:
+
+```
+Prefix Verb   URI Pattern           Controller#Action
+books  GET    /books(.:format)      books#index
+       POST   /books(.:format)      books#create
+book   GET    /books/:id(.:format)  books#show
+       PATCH  /books/:id(.:format)  books#update
+       PUT    /books/:id(.:format)  books#update
+       DELETE /books/:id(.:format)  books#destroy
+```
+
+This is great because Rails is able to generate all the routes we need via a single method call. However, we don't need all of these routes so we can pair it down to just the one we need:
+
+```ruby
+Rails.application.routes.draw do
+  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  resources :books, only: :index
+end
+```
+
+Which will give us:
+
+```
+Prefix Verb   URI Pattern           Controller#Action
+books  GET    /books(.:format)      books#index
+```
+
+#### Starting the development server
+
+TODO - 7:00
+
+#### Hitting our new route
+
+TODO - 7:00
