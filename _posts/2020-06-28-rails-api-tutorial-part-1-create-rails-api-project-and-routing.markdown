@@ -3,7 +3,7 @@ layout:             post
 title:              "Rails API Tutorial, Part 1: Creating Rails API Project and Routing"
 date:               2020-06-28 12:56:00 +0000
 permalink:          'rails-api-tutorial-part-1-create-rails-api-project-and-routing'
-last_modified_at:   2020-07-09 7:30:00 +0000
+last_modified_at:   2020-09-29 18:55:00 +0000
 ---
 
 Welcome to the Rails 6 API tutorial. In this series we'll walk through building a backend API using Ruby on Rails. The topics in this series include:
@@ -28,7 +28,7 @@ In this tutorial series we're going to build an API backend for a book store. Th
 
 #### Installing Rails
 
-This tutorial assumes you have Ruby/Rails installed on your machine. If you haven't done so already [GoRails has a good guide on how to do that](https://gorails.com/setup/osx/10.15-catalina).
+This tutorial assumes you have Ruby and Rails 6 installed on your machine. If you haven't done so already [GoRails has a good guide on how to do that](https://gorails.com/setup/osx/10.15-catalina).
 
 #### Creating a new Rails API app
 
@@ -90,7 +90,7 @@ To see what this has done, we can run `rake routes` via the command line:
 $ bin/rails routes
 ```
 
-If you scroll to the top of the console output, you should see the new route at the top:
+If you scroll to the top of the console output, you should see the new route:
 
 ```
 Prefix Verb   URI Pattern           Controller#Action
