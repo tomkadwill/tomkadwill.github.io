@@ -136,7 +136,13 @@ books  GET    /books(.:format)      books#index
 
 #### Starting the development server
 
-TODO - 7:00
+Let's test our new route. To do that we need to start the development server. Rails has a built in command for that:
+
+```
+$ bin/rails server
+```
+
+By default, the rails server will run on http://localhost:3000. If you browse to that url you will see the Rails welcome page.
 
 #### Hitting our new route
 
