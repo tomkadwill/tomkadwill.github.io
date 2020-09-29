@@ -28,3 +28,9 @@ Sometimes a branch has diverged from origin so much, that it doesn’t make sens
 
 ### Conclusion
 I can quit my annoying habit of running `git fetch` and `git reset --hard origin/master` every time I checkout a new branch. As long as `master` is clean, it’s fine to run `git pull`.
+
+<div style="border-radius: 15px;background: #ffea92;padding: 20px;">
+  <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
+  <p>🙏 <a href="https://buymeacoff.ee/tomkadwill">If you found this useful and want to support me, please consider a small donation. Thank you!</a></p>
+  <p>✉️ <a href="mailto:tomkadwill@gmail.com">If you want to work with me on a project, email tomkadwill@gmail.com</a></p>
+<div>
