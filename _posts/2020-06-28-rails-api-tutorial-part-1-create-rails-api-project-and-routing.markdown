@@ -3,7 +3,7 @@ layout:             post
 title:              "Rails API Tutorial, Part 1: Creating Rails API Project and Routing"
 date:               2020-06-28 12:56:00 +0000
 permalink:          'rails-api-tutorial-part-1-create-rails-api-project-and-routing'
-last_modified_at:   2020-09-29 18:55:00 +0000
+last_modified_at:   2020-10-01 19:55:00 +0000
 ---
 
 Welcome to the Rails 6 API tutorial. In this series we'll walk through building a backend API using Ruby on Rails. The topics in this series include:
