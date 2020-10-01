@@ -142,8 +142,20 @@ Let's test our new route. To do that we need to start the development server. Ra
 $ bin/rails server
 ```
 
-By default, the rails server will run on http://localhost:3000. If you browse to that url you will see the Rails welcome page.
+By default, the rails server will run on <a href="http://localhost:3000">http://localhost:3000</a>. If you browse to that url you will see the Rails welcome page.
 
 #### Hitting our new route
 
-TODO - 7:00
+However, this is an API application so we wont be interacting with it via the browser. Instead we can use cURL to make API requests. To make a GET request we can do:
+
+```
+$ curl http://localhost:3000/books
+```
+
+You should get an error `ActionController::RoutingError uninitialized constant BooksController`. That's because the route we set up assumes there is a controller called `BooksController` and tries to route to straight to it. Don't worry, in <a href="/rails-api-tutorial-part-2-basic-controllers-and-models">part 2</a> we'll add the controller and have the whole API request/response working.
+
+<div style="border-radius: 15px;background: #ffea92;padding: 20px;">
+  <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
+  <p>🙏 <a href="https://buymeacoff.ee/tomkadwill">If you found this useful and want to support me, please consider a small donation. Thank you!</a></p>
+  <p>✉️ <a href="mailto:tomkadwill@gmail.com">If you want to work with me on a project, email tomkadwill@gmail.com</a></p>
+<div>
