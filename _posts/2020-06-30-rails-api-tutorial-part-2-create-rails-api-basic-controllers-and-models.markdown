@@ -37,3 +37,9 @@ end
 ```
 
 TODO: continue from 2:22.
+
+<div style="border-radius: 15px;background: #ffea92;padding: 20px;">
+  <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
+  <p>🙏 <a href="https://buymeacoff.ee/tomkadwill">If you found this useful and want to support me, please consider a small donation. Thank you!</a></p>
+  <p>✉️ <a href="mailto:tomkadwill@gmail.com">If you want to work with me on a project, email tomkadwill@gmail.com</a></p>
+<div>
