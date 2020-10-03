@@ -16,3 +16,24 @@ Welcome to the Rails 6 API tutorial. In this series we'll walk through building 
 7. [Exception Handling in Controllers](/rails-api-tutorial-part-7-exception-handling-in-controllers)
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//nCb_mqAKusg' frameborder='0' allowfullscreen></iframe></div>
+
+In [part 1](/rails-api-tutorial-part-1-create-rails-api-project-and-routing) we added a route for `GET /books`. The next step is to add a controller for it. To do that we can use the Rails generator, via the command line we can do:
+
+```
+$ bin/rails g controller BooksController index
+```
+
+This will generate a controller called `BooksController` with an `index` action method.
+
+This will also create an additional route which looks like `get books/index`. We don't need that because we've already written the route so the generated route can be deleted.
+
+The generated controller can be found under `app/controller/books_controller.rb` and looks like this:
+
+```ruby
+class BooksController < ApplicationController
+  def index
+  end
+end
+```
+
+TODO: continue from 2:22.
