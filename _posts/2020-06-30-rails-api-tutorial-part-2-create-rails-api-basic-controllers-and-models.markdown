@@ -1,8 +1,9 @@
 ---
-layout:     post
-title:      "Rails API Tutorial, Part 2: Basic Controllers and Models"
-date:       2020-06-30 07:33:00 +0000
-permalink:  'rails-api-tutorial-part-2-basic-controllers-and-models'
+layout:             post
+title:              "Rails API Tutorial, Part 2: Basic Controllers and Models"
+date:               2020-06-30 07:33:00 +0000
+permalink:          'rails-api-tutorial-part-2-basic-controllers-and-models'
+last_modified_at:   2020-10-25 20:38:00 +0000
 ---
 
 Welcome to the Rails 6 API tutorial. In this series we'll walk through building a backend API using Ruby on Rails. The topics in this series include:
@@ -36,7 +37,15 @@ class BooksController < ApplicationController
 end
 ```
 
-TODO: continue from 2:22.
+As you can see, `BooksController` is a regular Ruby class that inherits from `ApplicationController`. The inheritance provides the class with methods for handling incoming requests, params, etc.
+
+You'll notice that the class was also generated with an empty `index` method (Rails developers call this an 'index action'). Even though the method is empty it does have a purpose. Any requests which hit `BooksController#index` will be served a successful response, with a 204 status code. We can test that via cURL:
+
+```
+$ curl http://localhost:3000/books -v
+```
+
+TODO: continue from 3:39.
 
 <div style="border-radius: 15px;background: #ffea92;padding: 20px;">
   <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
