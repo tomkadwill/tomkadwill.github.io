@@ -45,7 +45,17 @@ You'll notice that the class was also generated with an empty `index` method (Ra
 $ curl http://localhost:3000/books -v
 ```
 
-TODO: continue from 3:39.
+You should see that the cURL request returns a 204 status code. We can also look at the server logs:
+
+```
+Started GET "/books" for ::1 at 2020-10-27 19:31:35 +0100
+Processed by BooksController#index as */*
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 32)
+```
+
+The server log shows that we made a GET request to `/books`, the request was processed by the `BooksController#index` method and it returned a 204.
+
+TODO: continue from 4:07.
 
 <div style="border-radius: 15px;background: #ffea92;padding: 20px;">
   <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
