@@ -3,7 +3,7 @@ layout:             post
 title:              "Rails API Tutorial, Part 2: Basic Controllers and Models"
 date:               2020-06-30 07:33:00 +0000
 permalink:          'rails-api-tutorial-part-2-basic-controllers-and-models'
-last_modified_at:   2020-10-25 20:38:00 +0000
+last_modified_at:   2020-11-01 11:18:00 +0000
 ---
 
 Welcome to the Rails 6 API tutorial. In this series we'll walk through building a backend API using Ruby on Rails. The topics in this series include:
@@ -17,6 +17,8 @@ Welcome to the Rails 6 API tutorial. In this series we'll walk through building 
 7. [Exception Handling in Controllers](/rails-api-tutorial-part-7-exception-handling-in-controllers)
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//nCb_mqAKusg' frameborder='0' allowfullscreen></iframe></div>
+
+#### Generating a controller
 
 In [part 1](/rails-api-tutorial-part-1-create-rails-api-project-and-routing) we added a route for `GET /books`. The next step is to add a controller for it. To do that we can use the Rails generator, via the command line we can do:
 
@@ -39,7 +41,11 @@ end
 
 As you can see, `BooksController` is a regular Ruby class that inherits from `ApplicationController`. The inheritance provides the class with methods for handling incoming requests, params, etc.
 
-You'll notice that the class was also generated with an empty `index` method (Rails developers call this an 'index action'). Even though the method is empty it does have a purpose. Any requests which hit `BooksController#index` will be served a successful response, with a 204 status code. We can test that via cURL:
+You'll notice that the class was also generated with an empty `index` method (Rails developers call this an 'index action'). Even though the method is empty it does have a purpose. Any requests which hit `BooksController#index` will be served a successful response, with a 204 status code.
+
+#### Calling the controller action via cURL
+
+We can test that via cURL:
 
 ```
 $ curl http://localhost:3000/books -v
@@ -55,7 +61,23 @@ Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 32)
 
 The server log shows that we made a GET request to `/books`, the request was processed by the `BooksController#index` method and it returned a 204.
 
-TODO: continue from 4:07.
+#### Updating the controller action to return a list of objects
+
+Currently `BooksController#index` returns a successful response code but it doesn't return any data. Let's update the method to return a list of book objects:
+
+```ruby
+class BooksController < ApplicationController
+  def index
+    render json: Book.all
+  end
+end
+```
+
+We'll use `render`, with the `json` option and pass in an ActiveRecord collection. In this case we use `Book.all` which will return all books in the database. We haven't defined the `Book` model yet but we'll do that next.
+
+#### Generating a model
+
+TODO: continue from 5:11.
 
 <div style="border-radius: 15px;background: #ffea92;padding: 20px;">
   <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
