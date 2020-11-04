@@ -3,7 +3,7 @@ layout:             post
 title:              "Rails API Tutorial, Part 2: Basic Controllers and Models"
 date:               2020-06-30 07:33:00 +0000
 permalink:          'rails-api-tutorial-part-2-basic-controllers-and-models'
-last_modified_at:   2020-11-01 11:18:00 +0000
+last_modified_at:   2020-11-04 18:49:00 +0000
 ---
 
 Welcome to the Rails 6 API tutorial. In this series we'll walk through building a backend API using Ruby on Rails. The topics in this series include:
@@ -77,7 +77,18 @@ We'll use `render`, with the `json` option and pass in an ActiveRecord collectio
 
 #### Generating a model
 
-TODO: continue from 5:11.
+We can generate a model using the Rails generate command. We just need to provide a name for our model and a list of attributes:
+
+```
+rails g model Book title:string author:string
+```
+
+In this example we're generating a model called `Book` which has two fields, `title` and `author`, both of which are string fields. When we run the command Rails will generate a couple of files for us:
+* a migration file - `db/migrate/20200620150063_create_books.rb`
+* a model file - `app/models/book.rb`
+* some test files
+
+TODO: continue from 6:35
 
 <div style="border-radius: 15px;background: #ffea92;padding: 20px;">
   <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
