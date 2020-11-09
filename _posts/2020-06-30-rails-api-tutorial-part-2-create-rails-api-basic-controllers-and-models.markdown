@@ -3,7 +3,7 @@ layout:             post
 title:              "Rails API Tutorial, Part 2: Basic Controllers and Models"
 date:               2020-06-30 07:33:00 +0000
 permalink:          'rails-api-tutorial-part-2-basic-controllers-and-models'
-last_modified_at:   2020-11-04 18:49:00 +0000
+last_modified_at:   2020-11-09 07:06:00 +0000
 ---
 
 Welcome to the Rails 6 API tutorial. In this series we'll walk through building a backend API using Ruby on Rails. The topics in this series include:
@@ -88,7 +88,20 @@ In this example we're generating a model called `Book` which has two fields, `ti
 * a model file - `app/models/book.rb`
 * some test files
 
-TODO: continue from 6:35
+Here's a look inside the files that were created:
+
+#### book.rb
+
+```ruby
+class Book < ApplicationRecord
+end
+```
+
+As you can see there's not much going on in this file, at the moment. We're defining a `Book` class and inheriting from `ApplicationRecord`. Although we haven't added any of our own logic, to this file, it still gives us a lot of capabilities. By inheriting from `ApplicationRecord` we're giving `Book` all the power of Rails, by making it an `ActiveRecord` class.
+
+Rails will map this Ruby class to the `book` table in our database. We can then use this model to access the database in our Rails application by calling methods. For example: `Book.all` will return all records.
+
+TODO: continue from 7:16
 
 <div style="border-radius: 15px;background: #ffea92;padding: 20px;">
   <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
