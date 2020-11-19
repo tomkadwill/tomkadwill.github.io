@@ -3,7 +3,7 @@ layout:             post
 title:              "Rails API Tutorial, Part 2: Basic Controllers and Models"
 date:               2020-06-30 07:33:00 +0000
 permalink:          'rails-api-tutorial-part-2-basic-controllers-and-models'
-last_modified_at:   2020-11-09 07:06:00 +0000
+last_modified_at:   2020-11-19 07:06:00 +0000
 ---
 
 Welcome to the Rails 6 API tutorial. In this series we'll walk through building a backend API using Ruby on Rails. The topics in this series include:
@@ -101,7 +101,32 @@ As you can see there's not much going on in this file, at the moment. We're defi
 
 Rails will map this Ruby class to the `book` table in our database. We can then use this model to access the database in our Rails application by calling methods. For example: `Book.all` will return all records.
 
-TODO: continue from 7:16
+#### migration file
+
+```ruby
+class CreateBooks < ActiveRecord::Migration[6.0]
+  def change
+    create_table :books do |t|
+      t.string :title
+      t.string :author
+
+      t.timestamps
+    end
+  end
+end
+```
+
+As well as the books model, we need to actually create a database table. To do that, Rails has generated a migration file for us which is like a blueprint for creating a database table. Here we're creating a table called `books` with two fields: `title` and `author`, both of which are string fields. The table also includes `created_at` and `updated_at` timestamps. This table will be used to store books in our system.
+
+If we try to run the server now it will fail because we have migrations in our codebase that haven't been applied yet. So before we continue we should run the migrations. To do that, we can execute:
+
+```
+$ bin/rails db:migrate
+```
+
+This will apply the migration, creating the `books` table. You may be wondering which database Rails has updated. Rails ships with sqlite3 by default. When you run the migrations you may notice a new file appear called `development.sqlite3`. This is your development database.
+
+TODO: continue from 9:07
 
 <div style="border-radius: 15px;background: #ffea92;padding: 20px;">
   <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
