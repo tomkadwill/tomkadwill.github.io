@@ -126,7 +126,40 @@ $ bin/rails db:migrate
 
 This will apply the migration, creating the `books` table. You may be wondering which database Rails has updated. Rails ships with sqlite3 by default. When you run the migrations you may notice a new file appear called `development.sqlite3`. This is your development database.
 
-TODO: continue from 9:07
+### Testing the controller with cURL
+
+Now that we've run the migrations we can test the controller/action again using the cURL request we ran before:
+
+```
+$ curl http://localhost:3000/books
+[]
+```
+
+In the response you'll notice we're getting back an empty array. This is what we would expect because the controller is returning all books but we don't have any books in the database to return. This is good because it means the response is consistent whether we have zero, one or multiple books being returned
+
+### Creating some database records in the rails console
+
+To test the controller/action when we have records in the database, we can use the rails console. To start the console run:
+
+```
+bin/rails c
+```
+
+Then in the prompt you can create a `Book` by doing:
+
+```ruby
+> Book.create!(author: 'J.K Rowling', title: 'Harry Potter and the Philosophers Stone')
+=> #<Book id: 1, title: "Harry Potter and the Philosophers Stone", author: "J.K Rowling", created_at: "2020-11-20 07:48:12", updated_at: "2020-11-20 07:48:12">
+```
+
+`create` is an ActiveRecord query method that allows us to create database records. It's available to all of our ActiveRecord models and takes a hash of database fields as it's arguments.
+
+Now we can run the cURL request again to see some data in the response body:
+
+```
+$ curl http://localhost:3000/books
+[{"id": 1, "title": "Harry Potter and the Philosophers Stone", "author": "J.K Rowling", "created_at": "2020-11-20 07:48:12", "updated_at": "2020-11-20 07:48:12"}]
+```
 
 <div style="border-radius: 15px;background: #ffea92;padding: 20px;">
   <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
