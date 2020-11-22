@@ -154,8 +154,8 @@ $ curl http://localhost:3000/books
 
 You should get an error `ActionController::RoutingError uninitialized constant BooksController`. That's because the route we set up assumes there is a controller called `BooksController` and tries to route to straight to it. Don't worry, in <a href="/rails-api-tutorial-part-2-basic-controllers-and-models">part 2</a> we'll add the controller and have the whole API request/response working.
 
-<div style="border-radius: 15px;background: #ffea92;padding: 20px;">
+<div style="border-radius: 15px;background: #ffefab;padding: 20px;">
   <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
   <p>🙏 <a href="https://buymeacoff.ee/tomkadwill">If you found this useful and want to support me, please consider a small donation. Thank you!</a></p>
-  <p>✉️ <a href="mailto:tomkadwill@gmail.com">If you want to work with me on a project, email tomkadwill@gmail.com</a></p>
+  <p style="margin-bottom:0px">✉️ <a href="mailto:tomkadwill@gmail.com">If you want to work with me on a project, email tomkadwill@gmail.com</a></p>
 <div>

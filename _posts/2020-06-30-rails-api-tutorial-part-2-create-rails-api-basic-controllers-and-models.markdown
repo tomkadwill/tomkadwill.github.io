@@ -3,7 +3,7 @@ layout:             post
 title:              "Rails API Tutorial, Part 2: Basic Controllers and Models"
 date:               2020-06-30 07:33:00 +0000
 permalink:          'rails-api-tutorial-part-2-basic-controllers-and-models'
-last_modified_at:   2020-11-19 07:06:00 +0000
+last_modified_at:   2020-11-22 10:09:00 +0000
 ---
 
 Welcome to the Rails 6 API tutorial. In this series we'll walk through building a backend API using Ruby on Rails. The topics in this series include:
@@ -161,8 +161,8 @@ $ curl http://localhost:3000/books
 [{"id": 1, "title": "Harry Potter and the Philosophers Stone", "author": "J.K Rowling", "created_at": "2020-11-20 07:48:12", "updated_at": "2020-11-20 07:48:12"}]
 ```
 
-<div style="border-radius: 15px;background: #ffea92;padding: 20px;">
+<div style="border-radius: 15px;background: #ffefab;padding: 20px;">
   <p>☎️ <a href="https://superpeer.com/tomkadwill">Book a slot for 1-to-1 help or pair programming</a></p>
   <p>🙏 <a href="https://buymeacoff.ee/tomkadwill">If you found this useful and want to support me, please consider a small donation. Thank you!</a></p>
-  <p>✉️ <a href="mailto:tomkadwill@gmail.com">If you want to work with me on a project, email tomkadwill@gmail.com</a></p>
+  <p style="margin-bottom:0px">✉️ <a href="mailto:tomkadwill@gmail.com">If you want to work with me on a project, email tomkadwill@gmail.com</a></p>
 <div>
