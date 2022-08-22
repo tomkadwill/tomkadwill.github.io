@@ -14,4 +14,4 @@ I'm passionate about software, technology and design. I spend most of my time wo
 
 I love to [write](/posts) and publish [videos](https://www.youtube.com/user/kadwill/videos) about the stuff I'm building.
 
-Over the years I've worked on many [projects](/projects), some OSS some not. You can follow me on [GitHub](http://github.com/tomkadwill) and [ProductHunt](https://www.indiehackers.com/tomkadwill) to keep up to date.
+Over the years I've worked on many projects, some OSS some not. You can follow me on [GitHub](http://github.com/tomkadwill) and [ProductHunt](https://www.indiehackers.com/tomkadwill) to keep up to date.
