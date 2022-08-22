@@ -38,12 +38,6 @@ You can see a [full list of all my posts](/posts) or read the most popular below
 
 * [Rails API Tutorial Series](/rails-api-tutorial-part-1-create-rails-api-project-and-routing)
 
-* [12 Startups In 12 month, The Good And Bad](/12-startups-12-months)
-
-* [Building and Deploying MVPs with Rails](/building-and-deploying-mvps-with-rails)
-
-* [GitHub Marketplace Unverified Listings](/github-marketplace-unverified-listing)
-
 * [When to use git fetch, git pull and git reset --hard](/git-reset-or-git-pull)
 
 * [Brave vs Chrome With Ad Blockers](/brave-vs-chrome-with-ad-blockers)
