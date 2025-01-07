@@ -1,0 +1,11 @@
+---
+layout:     post
+title:      "A New Blog"
+date:       2017-11-30 19:48:20 +0000
+---
+
+Hello world! This is my new blog. I've had a few blogs over the years but eventually closed them all down due to: lack of inspiration, getting sick of Wordpress or no longer wanting to pay for hosting! After some time away, I've decided to start another blog and to keep it simple with Github Pages & Jekyll.
+
+In this blog I'll write about all things tech. Where my last blog was predominantly Ruby focused, here I want to write about all the things that interests me.
+
+I hope people will find this content useful and I hope this blog has a longer life than the last!
