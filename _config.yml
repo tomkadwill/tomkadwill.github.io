@@ -30,6 +30,10 @@ twitter_username: tomkadwill
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 google_analytics: UA-110529614-1
 

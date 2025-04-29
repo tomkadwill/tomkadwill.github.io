@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 permalink: /
+redirect_to: https://www.linkedin.com/in/tom-kadwill-b088371a/
 ---
 
 Hi, I'm Tom. I'm a engineering manager and former software engineer. I like to build things and learn from others. I'm sharing as much as I can to help others in the field.
